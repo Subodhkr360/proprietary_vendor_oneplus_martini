@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),martini)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,ab0cbff6d6b33936769b228f3dfdfe2a27c91824)
+$(call add-radio-file-sha1-checked,radio/abl.img,87314539c08e0fa46ada953473e6eaa99fc7b18d)
 $(call add-radio-file-sha1-checked,radio/aop.img,f3c4f80cd9a02a8d4d022bcfc85b7ff29f5c7994)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,e4b6d09f8738ed1fcc64aadf76886f37b45d3a20)
 $(call add-radio-file-sha1-checked,radio/cpucp.img,53039b6b57cd9f1ff7348b63f372e0314d45b926)
